@@ -4,7 +4,7 @@ This analysis uses the logistic growth model to examine the growth of an isolate
 
 Linear approximation methods were used to estimate the parameters of the logistic growth model (N0, r, and K). 
 Two models were used: model 1 and model 2. 
-For model 1, the data was subsetted in the early growth phase where t<1000. When K is much larger than N0 and t is small, the population growth is approximately exponential. A regression equation was established with a logarithmic transformation of N to linearise this exponential rowth. This was used to find the growth rate (r). For model 2, the data was subsetted in the later phase after the carrying capacity had been reached where t>3000. When t is large, the population size remains constant as it has reached the carrying capacity (K). A regression equation was established without any logarithmic transformation and there was stabilisation beyond t=3000.
+For model 1, the data was subsetted in the early growth phase where t<1000. When K is much larger than N0 and t is small, the population growth is approximately exponential. A regression equation was established with a logarithmic transformation of N to linearise this exponential rowth. This was used to find the growth rate (r). For model 2, the data was subsetted in the later phase after the carrying capacity had been reached where t>3000. When t is large, the population size remains constant as it has reached the carrying capacity (K). A regression equation was established without any logarithmic transformation and this was used to find the carrying capacity (K).
 
 Results: 
 - Initial population size (N0): 879
