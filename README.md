@@ -7,9 +7,9 @@ Two models were used: model 1 and model 2.
 For model 1, the data was subsetted in the early growth phase where t<1000. When K is much larger than N0 and t is small, the population growth is approximately exponential. A regression equation was established with a logarithmic transformation of N to linearise this exponential rowth. This was used to find the growth rate (r). For model 2, the data was subsetted in the later phase after the carrying capacity had been reached where t>3000. When t is large, the population size remains constant as it has reached the carrying capacity (K). A regression equation was established without any logarithmic transformation and there was stabilisation beyond t=3000.
 
 Results: 
-•	Initial population size (N0): 879
-•	Growth rate (r): 1.004 × 10^−2 (the gradient from summary(model1))
-•	Carrying capacity (K): 6.000 x 10^10 (the intercept from summary(model2))
+- Initial population size (N0): 879
+- Growth rate (r): 1.004 × 10^−2 (the gradient from summary(model1))
+- Carrying capacity (K): 6.000 x 10^10 (the intercept from summary(model2))
 
 2. (10 points) Use your estimates of N0 and r to calculate the population
 size at t = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth?
