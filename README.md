@@ -15,5 +15,4 @@
 
    This graph compares the exponential and logistic growth curves (using the same parameter estimates from above):
 
-    _(A preliminary plot was also made without the y-axis transformed to a logarithmic scale, it can be found in the R script)_
-     https://github.com/1075515/logistic_growth/blob/main/exponential_logistic_comparison.R
+    _(A preliminary plot was also made without the y-axis transformed to a logarithmic scale, it can be found in the R script:_ https://github.com/1075515/logistic_growth/blob/main/exponential_logistic_comparison.R)
