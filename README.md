@@ -7,12 +7,13 @@
      - Growth rate (r): 1.004 × 10^−2 (the gradient from summary(model1))
      - Carrying capacity (K): 6.000 x 10^10 (the intercept from summary(model2))
 
-3) SEE EXPONENTIAL_LOGISTIC_COMPARISON FILE (ADD LINK HERE)
+3) See https://github.com/1075515/logistic_growth/blob/main/exponential_logistic_comparison.R
 
    Using the estimates of N0 and r, the population size at t=4980 min was found to be 4.553712×10^24, assuming the population grows exponentially. At the same time point, under logistic growth, the population size is predicted to be 6×10^10. The population size under exponential growth is larger than under logistic growth, as expected. As t is large, under the logistic growth model the carrying capacity of 6×10^10 has been reached, whereas with exponential growth the population size is much larger as there is no carrying capacity in this growth model. 
 
-4) SEE EXPONENTIAL_LOGISTIC_COMPARISON FILE (ADD LINK HERE) This graph compares the exponential and logistic growth curves (using the same parameter estimates from above):
+4) See https://github.com/1075515/logistic_growth/blob/main/exponential_logistic_comparison_plot.png
 
-  ![exponential_logistic_comparison_plot](https://github.com/user-attachments/assets/e6bef9a0-cc13-498d-871c-33f7eedf4bc2)
+   This graph compares the exponential and logistic growth curves (using the same parameter estimates from above):
 
- _(A preliminary plot was also made without the y-axis transformed to a logarithmic scale, it can be found in the R script)_
+    _(A preliminary plot was also made without the y-axis transformed to a logarithmic scale, it can be found in the R script)_
+     https://github.com/1075515/logistic_growth/blob/main/exponential_logistic_comparison.R
