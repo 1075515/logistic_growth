@@ -7,15 +7,17 @@ logistic_fun <- function(t) {
   return(N)
 }
 
-N0 <- 879 #Looking at growth_data - when t=0, N=879
+logistic_fun(0) #Inserted t = 0 into function above to get N output of 879
+N0 <- 879 
   
 summary(model1)
-r <- 0.0100086 #This is the gradient of the first model 
-#Looking at summary(model1), the t value is 0.0100086
+r <- 1.004e-02 #This is the gradient of the first model 
+#Looking at summary(model1), the t value is 1.004e-02 i.e. 0.01004
 
 summary(model2) 
 K <- 6.000e+10 #This is the intercept of the second model
-  #Looking at summary(model2), the intercept is 6.000e+10
+  #Looking at summary(model2), the intercept is 6.000e+10 i.e. 60,000,000,000
+
 
 ggplot(aes(t,N), data = growth_data) +
   geom_function(fun=logistic_fun, colour="red") +
