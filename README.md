@@ -3,9 +3,8 @@
 This analysis uses the logistic growth model to examine the growth of an isolate of the bacterium Escherichia coli grown in a test tube. During the analysis, the dataset used was the experiment.csv file, which contains values for time (t) and population size (N). The growth reflected a logistic growth pattern, whereby there was rapid initial growth, then decreasing growth as resources were depleted with a final plateau phase as the bacterial population reached its carrying capacity (K). 
 
 Linear approximation methods were used to estimate the parameters of the logistic growth model (N0, r, and K). 
-Two models were used:
-•	Model 1: the data was subsetted in the early growth phase where t<1000. When K is much larger than N0 and t is small, the population growth is approximately exponential. A regression equation was established with a logarithmic transformation of N to linearise this exponential rowth. This was used to find the growth rate (r). 
-•	Model 2: the data was subsetted in the later phase after the carrying capacity had been reached where t>3000. 
+Two models were used: model 1 and model 2. 
+For model 1, the data was subsetted in the early growth phase where t<1000. When K is much larger than N0 and t is small, the population growth is approximately exponential. A regression equation was established with a logarithmic transformation of N to linearise this exponential rowth. This was used to find the growth rate (r). For model 2, the data was subsetted in the later phase after the carrying capacity had been reached where t>3000. 
 
 Results: 
 •	Initial population size (N0): 879
